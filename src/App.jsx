@@ -11,7 +11,6 @@ import {
   StarsCanvas,
 } from "./components";
 
-// 1:00:06
 const App = () => {
   return (
     <BrowserRouter>
