@@ -4,6 +4,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import play from "./play.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -29,6 +30,7 @@ import deutscheBank from "./company/deutscheBank.png";
 import politehnicaUniversity from "./company/politehnicaUniversity.png";
 import microsoft from "./company/microsoft.png";
 
+import website3d from './3Dwebsite.png';
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -40,6 +42,7 @@ export {
   mobile,
   web,
   github,
+  play,
   menu,
   close,
   css,
@@ -62,6 +65,7 @@ export {
   deutscheBank,
   politehnicaUniversity,
   microsoft,
+  website3d,
   carrent,
   jobit,
   tripguide,
