@@ -27,6 +27,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  solarSystem,
 } from "../assets";
 
 export const navLinks = [
@@ -37,6 +38,10 @@ export const navLinks = [
   {
     id: "work",
     title: "Work",
+  },
+  {
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -219,48 +224,28 @@ const projects = [
     link: "https://www.livadaru-3dweb.com/",
     source_code_link: "https://github.com/livalex/AI-powered-3D-Website",
   },
-  // {
-  //   name: "Job IT",
-  //   description:
-  //     "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-  //   tags: [
-  //     {
-  //       name: "react",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "restapi",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "scss",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: jobit,
-  //   source_code_link: "https://github.com/",
-  // },
-  // {
-  //   name: "Trip Guide",
-  //   description:
-  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-  //   tags: [
-  //     {
-  //       name: "nextjs",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "supabase",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: tripguide,
-  //   source_code_link: "https://github.com/",
-  // },
+  {
+    name: "3D Solar System",
+    description:
+      "This project leverages Three.js, React Three Fiber, and React Drei as its driving technologies. The current scene displays the sun, all eight planets (or nine, if you classify Pluto as a planet), the asteroid belt, and an array of thousands of stars.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React Three Fiber",
+        color: "green-text-gradient",
+      },
+      {
+        name: "React Drei",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: solarSystem,
+    link: "http://www.livadaru-solar-system.com/",
+    source_code_link: "https://github.com/livalex/Solar-System",
+  },
 ];
 
 export { services, technologies, experiences, testimonials, projects };

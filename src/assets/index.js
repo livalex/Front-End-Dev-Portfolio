@@ -30,7 +30,8 @@ import deutscheBank from "./company/deutscheBank.png";
 import politehnicaUniversity from "./company/politehnicaUniversity.png";
 import microsoft from "./company/microsoft.png";
 
-import website3d from './3Dwebsite.png';
+import website3d from "./3Dwebsite.png";
+import solarSystem from "./solarSystem.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -66,6 +67,7 @@ export {
   politehnicaUniversity,
   microsoft,
   website3d,
+  solarSystem,
   carrent,
   jobit,
   tripguide,
