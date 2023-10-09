@@ -1,7 +1,6 @@
 import {
   mobile,
   backend,
-  creator,
   web,
   javascript,
   typescript,
@@ -15,17 +14,10 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
   deutscheBank,
   politehnicaUniversity,
   microsoft,
-  shopify,
   website3d,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
   solarSystem,
 } from "../assets";
@@ -61,10 +53,6 @@ const services = [
   {
     title: "Backend Developer",
     icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
   },
 ];
 

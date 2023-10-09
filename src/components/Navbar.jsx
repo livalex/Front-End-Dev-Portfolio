@@ -60,7 +60,7 @@ const Navbar = () => {
           <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
             Alexandru Livadaru&nbsp;
-            <span className="sm:block hidden">| Personal Portfolio</span>
+            <span className="lg:block hidden">| Personal Portfolio</span>
           </p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">

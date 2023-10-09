@@ -67,11 +67,6 @@ const ProjectCard = ({
   );
 };
 
-// Following projects showcases my skills and experience through
-// real-world examples of my work. It reflects my
-// ability to solve complex problems, work with different technologies,
-// and manage projects effectively.
-
 const Works = () => {
   return (
     <>
