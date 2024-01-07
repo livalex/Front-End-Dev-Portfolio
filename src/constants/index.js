@@ -194,7 +194,7 @@ const projects = [
   {
     name: "Coffee Shop",
     description:
-      "A practical project created for a nearby company. Using this app, the consumer can place product orders from the business, and the orders will be delivered to the customer. The administrator has the ability to add, remove, and view products. They also get notified about the orders by email.",
+      "A real project created for a nearby company. Using this app, the consumer can place product orders from the business, and the orders will be delivered to the customer. The administrator has the ability to add, remove, and view products. They also get notified about the orders by email.",
     tags: [
       {
         name: "React",
