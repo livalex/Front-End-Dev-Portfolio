@@ -20,6 +20,7 @@ import {
   website3d,
   threejs,
   solarSystem,
+  coffeeShop,
 } from "../assets";
 
 export const navLinks = [
@@ -191,6 +192,29 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Coffee Shop",
+    description:
+      "A practical project created for a nearby company. Using this app, the consumer can place product orders from the business, and the orders will be delivered to the customer. The administrator has the ability to add, remove, and view products. They also get notified about the orders by email.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Spring Boot",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MySQL",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: coffeeShop,
+    link: "https://www.lanoah.ro/",
+    show_source_code: false,
+    source_code_link: "",
+  },
+  {
     name: "AI-Powered 3D Website",
     description:
       "A React Website where you can design your own T-shirt by changing the color, adding an image as a logo or full texture, or even generating an image using AI. It uses Node.js for back-end and calls the OpenAI API.",
@@ -210,6 +234,7 @@ const projects = [
     ],
     image: website3d,
     link: "https://www.livadaru-3dweb.com/",
+    show_source_code: true,
     source_code_link: "https://github.com/livalex/AI-powered-3D-Website",
   },
   {
@@ -232,6 +257,7 @@ const projects = [
     ],
     image: solarSystem,
     link: "http://www.livadaru-solar-system.com/",
+    show_source_code: true,
     source_code_link: "https://github.com/livalex/Solar-System",
   },
 ];

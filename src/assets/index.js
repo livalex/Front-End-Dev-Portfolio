@@ -27,6 +27,7 @@ import microsoft from "./company/microsoft.png";
 
 import website3d from "./3Dwebsite.png";
 import solarSystem from "./solarSystem.png";
+import coffeeShop from "./laNoahCoffeeShop.png";
 
 export {
   logo,
@@ -55,4 +56,5 @@ export {
   microsoft,
   website3d,
   solarSystem,
+  coffeeShop,
 };
