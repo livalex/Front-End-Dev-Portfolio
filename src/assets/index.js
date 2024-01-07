@@ -29,6 +29,8 @@ import website3d from "./3Dwebsite.png";
 import solarSystem from "./solarSystem.png";
 import coffeeShop from "./laNoahCoffeeShop.png";
 
+import andreiNicolaePhoto from "./AndreiNicolae.jpg";
+
 export {
   logo,
   backend,
@@ -57,4 +59,5 @@ export {
   website3d,
   solarSystem,
   coffeeShop,
+  andreiNicolaePhoto,
 };

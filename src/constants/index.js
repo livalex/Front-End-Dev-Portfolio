@@ -21,6 +21,7 @@ import {
   threejs,
   solarSystem,
   coffeeShop,
+  andreiNicolaePhoto,
 } from "../assets";
 
 export const navLinks = [
@@ -166,28 +167,28 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Alex proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "I worked with Alex on the redesign of an internal Deutsche Bank React Components Library and can highly recommend him as a proactive and communicative developer. During our time working together, I had the chance to review Alex’s code and have definitely seen his skills grow. I really appreciate the fact that he always strives to apply best practices in his work.",
+    name: "Andrei-Daniel Nicolae",
+    designation: "Software Engineer",
+    company: "Adobe",
+    image: andreiNicolaePhoto,
   },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Alex does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Alex optimized our website, our traffic increased by 50%. We can't thank him enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
+  // {
+  //   testimonial:
+  //     "I've never met a web developer who truly cares about their clients' success like Alex does.",
+  //   name: "Chris Brown",
+  //   designation: "COO",
+  //   company: "DEF Corp",
+  //   image: "https://randomuser.me/api/portraits/men/5.jpg",
+  // },
+  // {
+  //   testimonial:
+  //     "After Alex optimized our website, our traffic increased by 50%. We can't thank him enough!",
+  //   name: "Lisa Wang",
+  //   designation: "CTO",
+  //   company: "456 Enterprises",
+  //   image: "https://randomuser.me/api/portraits/women/6.jpg",
+  // },
 ];
 
 const projects = [
