@@ -20,6 +20,9 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import nextJs from "./tech/nextJs.svg";
+import springBoot from "./tech/spring-boot.svg";
+import mySQL from "./tech/mysql-logo.svg";
 
 import deutscheBank from "./company/deutscheBank.png";
 import politehnicaUniversity from "./company/politehnicaUniversity.png";
@@ -28,6 +31,7 @@ import microsoft from "./company/microsoft.png";
 import website3d from "./3Dwebsite.png";
 import solarSystem from "./solarSystem.png";
 import coffeeShop from "./laNoahCoffeeShop.png";
+import devOverflow from "./DevOverflow.png";
 
 import andreiNicolaePhoto from "./AndreiNicolae.jpg";
 
@@ -53,11 +57,15 @@ export {
   tailwind,
   typescript,
   threejs,
+  nextJs,
+  springBoot,
+  mySQL,
   deutscheBank,
   politehnicaUniversity,
   microsoft,
   website3d,
   solarSystem,
   coffeeShop,
+  devOverflow,
   andreiNicolaePhoto,
 };

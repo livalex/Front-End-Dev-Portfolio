@@ -21,7 +21,11 @@ import {
   threejs,
   solarSystem,
   coffeeShop,
+  devOverflow,
   andreiNicolaePhoto,
+  nextJs,
+  springBoot,
+  mySQL,
 } from "../assets";
 
 export const navLinks = [
@@ -60,6 +64,14 @@ const services = [
 
 const technologies = [
   {
+    name: "NextJs",
+    icon: nextJs,
+  },
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
+  {
     name: "HTML 5",
     icon: html,
   },
@@ -76,37 +88,41 @@ const technologies = [
     icon: typescript,
   },
   {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
     name: "Redux Toolkit",
     icon: redux,
   },
+  // {
+  //   name: "Tailwind CSS",
+  //   icon: tailwind,
+  // },
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "git",
+    icon: git,
+  },
+  {
+    name: "Spring Boot",
+    icon: springBoot,
   },
   {
     name: "Node JS",
     icon: nodejs,
   },
   {
+    name: "MySQL",
+    icon: mySQL,
+  },
+  {
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
+  // {
+  //   name: "figma",
+  //   icon: figma,
+  // },
   {
     name: "docker",
     icon: docker,
@@ -119,11 +135,13 @@ const experiences = [
     company_name: "Deutsche Bank",
     icon: deutscheBank,
     iconBg: "#383E56",
-    date: "November 2021 - Present",
+    date: "July 2021 - Present",
     points: [
-      "Designed and implemented a web tool in React for managing client and bank accounts data.",
-      "Worked on an internal library for both web sites and smartphones using React / React Native.",
-      "Volunteered as a front-end developer mentor for internship students.",
+      "Part of a scrum team working on the frontend of a clients and bank accounts managing platform using React.js, Redux, Spring Boot, Functional Programming, TeamCity.",
+      "Contributed to the development of the frontend regarding a client investments contract generator as a member of a scrum team. Used technologies such as React.js, MobX, TypeScript, Spring Boot, Functional Programming.",
+      "Writing clean, composable, easy to test code, optimizing performance and the user experience. Take part in code reviews, backlog refinement, estimation, planning. Mentor internship projects.",
+      "Building and improving the internal UI components library used by over 40 developers. Roadmap refinement, promoting the library.",
+      "Deutsche Bank 3-month Cloud Engineer program, taking part in hackathons.",
     ],
   },
   {
@@ -131,23 +149,11 @@ const experiences = [
     company_name: "University Politehnica of Bucharest",
     icon: politehnicaUniversity,
     iconBg: "#E6DEDD",
-    date: "September 2020 - Present",
+    date: "September 2020 - August 2023",
     points: [
-      "Taught and helped the Computer Programming module (C) and contributed to the course’s learning material.",
-      "Created new assignments, projects and homework which increased my inventiveness.",
-      "Developed teamwork and soft skills as a teacher and as a member of the staff.",
-    ],
-  },
-  {
-    title: "Technical Software Engineer Intern",
-    company_name: "Deutsche Bank",
-    icon: deutscheBank,
-    iconBg: "#383E56",
-    date: "July 2021 - September 2021",
-    points: [
-      "Developed applications using technologies like JavaScript, React, HMTL/CSS, Java (Spring), SQL.",
-      "Developed custom tests for the purpose of testing the newly created products.",
-      "Privilege of collaborating within a dynamic and cohesive team environment",
+      "Taught and helped Computer Programming module's students.",
+      "Contributed to the course’s learning material.",
+      "Created new assignments, projects, homework.",
     ],
   },
   {
@@ -155,10 +161,10 @@ const experiences = [
     company_name: "Microsoft",
     icon: microsoft,
     iconBg: "#E6DEDD",
-    date: "March 2021 - May2021",
+    date: "March 2021 - May 2021",
     points: [
       "Provided and facilitated responsive delivery of technical solutions and information to major customers.",
-      "Worked in an international environment and collaborated with my team to provide high-levelsupport.",
+      "Worked in an international environment and collaborated with my team to provide high-level support.",
       "Attended triage meetings with remote engineers to share knowledge and efficiently develop customer solutions.",
     ],
   },
@@ -192,6 +198,37 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "DevOverflow",
+    description:
+      "A community-driven platform for asking and answering programming questions. You can add posts and comments together with snippets of code, upvote or downvote a question / comment, gain reputation through the badge system, or even generate comments using AI. It includes a recommendation system for posts and can also filter and paginate all pages.",
+    tags: [
+      {
+        name: "NextJs",
+        color: "violet-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TailwindCSS",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Clerk",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: devOverflow,
+    link: "https://dev-overflow-git-main-alexs-projects-becb1450.vercel.app/",
+    show_source_code: true,
+    source_code_link: "https://github.com/livalex/Dev-Overflow",
+  },
   {
     name: "Coffee Shop",
     description:
